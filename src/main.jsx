@@ -7,10 +7,13 @@ import AOS from 'aos';
 
 import 'aos/dist/aos.css';
 AOS.init()
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="max-w-7xl mx-auto" >
+ <div className="bg-gray-50">
+     <div className="max-w-7xl mx-auto " >
       <RouterProvider router={router} />
     </div>
+ </div>
   </StrictMode>
 );

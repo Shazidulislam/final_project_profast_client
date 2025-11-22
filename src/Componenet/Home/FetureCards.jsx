@@ -31,7 +31,7 @@ export default function FeatureCards() {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="grid grid-cols-12  shadow-lg bg-gray-50 px-4 py-8 rounded-md"
+            className="grid grid-cols-12  shadow-lg bg-white px-4 py-8 rounded-md"
           >
             {/* Image Column */}
             <div className="sm:col-span-2 mb-6  text-center sm:text-start sm:mb-0 col-span-12">
